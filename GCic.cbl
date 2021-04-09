@@ -153,7 +153,7 @@
        *>        and copyright to 2018 (in 3 places).                 **
        *>***************************************************************
        *>
-       ENVIRONMENT DIVISION.
+       ENVIRONMENT DIVISION.       
        CONFIGURATION SECTION.
        REPOSITORY.
            FUNCTION ALL INTRINSIC.
