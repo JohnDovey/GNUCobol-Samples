@@ -172,7 +172,7 @@ GC1010     SELECT F-Cobc-Output-FILE   ASSIGN TO WS-Listing-Filename-TXT
        FD  F-Source-Code-FILE.
 GC0313 01  F-Source-Code-REC                     PIC X(256).
        WORKING-STORAGE SECTION.
-       COPY screenio. *> Included in Distribution
+       COPY "screenio.cpy" *> Included in Distribution
 GC0712 01  WS-Compilation-Switches-TXT.
 GC0712     05 WS-CS-Args-TXT VALUE SPACES.
 GC0712        10 WS-CS-Arg-H1-TXT                PIC X(76).

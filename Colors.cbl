@@ -1,30 +1,30 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. colors.
+       PROGRAM-ID. Colors.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
        SCREEN SECTION.
        01 S-COLORTST-SCR
            BACKGROUND-COLOR 0 FOREGROUND-COLOR 7 BLANK SCREEN.
            05 LINE 01.
-           10 COL 1 VALUE
+              10 COL 1 VALUE
            'LOWLIGHT -------- HIGHLIGHT LOWLIGHT -------- HIGHLIGHT'.
            05 LINE + 1.
-           10 COL 1 VALUE
+               10 COL 1 VALUE
            '-------- -------- -------- -------- -------- --------'.
            05 LINE + 1.
-           10 COL 1 VALUE
+               10 COL 1 VALUE
            '-------- -------- -------- REVERSE REVERSE REVERSE'.
            05 LINE + 1.
-           10 COL 1 VALUE
+               10 COL 1 VALUE
            '01234567 01234567 01234567 01234567 01234567 01234567'.
            05 LINE + 1.
-           10 COL 1 VALUE '0 0 0 0 0 0 '.
+               10 COL 1 VALUE '0 0 0 0 0 0 '.
            05 LINE + 1.
-           10 COL 1 VALUE '1 1 1 1 1 1 '.
+               10 COL 1 VALUE '1 1 1 1 1 1 '.
            05 LINE + 1.
-           10 COL 1 VALUE '2 2 2 2 2 2 '.
+               10 COL 1 VALUE '2 2 2 2 2 2 '.
            05 LINE + 1.
-           10 COL 1 VALUE '3 1 3 2 3 3 3 4 3 5 3 6 '.
+               10 COL 1 VALUE '3 1 3 2 3 3 3 4 3 5 3 6 '.
            05 LINE + 1.
            10 COL 1 VALUE '4 4 4 4 4 4 '.
            05 LINE + 1.
