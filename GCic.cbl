@@ -36,12 +36,12 @@
        *>    for GCic occurs.
        *>*******************************************************************
        *>
-       copy "const-set-1.cpy".
+       copy "const-set-1.cpy"
        *>
        *> --------------------------------------------------------------
        *> END CONFIGURATION SETTINGS
-        IDENTIFICATION DIVISION.
-        PROGRAM-ID. GCic.
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. GCic.
        *>***************************************************************
        *>     >NOTE<   >NOTE<   >NOTE<   >NOTE<   >NOTE<   >NOTE<     **
        *>                                                             **
@@ -153,7 +153,7 @@
        *>        and copyright to 2018 (in 3 places).                 **
        *>***************************************************************
        *>
-       ENVIRONMENT DIVISION.       
+       ENVIRONMENT DIVISION.
        CONFIGURATION SECTION.
        REPOSITORY.
            FUNCTION ALL INTRINSIC.
